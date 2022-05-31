@@ -17,6 +17,31 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.targetEncoding>UTF-8</project.build.targetEncoding>
     </properties>
+    
+    <issueManagement>
+        <url>https://github.com/everbravo/springcalculadora/issues</url>
+        <system>GitHub Issues</system>
+    </issueManagement>
+
+    <licenses>
+        <license>
+            <name>Apache License 2.0</name>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/RotaruDan/calculadora</url>
+        <connection>scm:git:git://github.com/everbravo/springcalculadora.git</connection>
+    </scm>
+
+
+    <developers>
+        <developer>
+            <id>everbravo</id>
+            <name>Ever Bravo Vergara</name>
+        </developer>
+    </developers>
 
     <dependencies>
 
