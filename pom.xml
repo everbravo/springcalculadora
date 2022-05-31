@@ -31,7 +31,7 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/RotaruDan/calculadora</url>
+        <url>https://github.com/everbravo/springcalculadora</url>
         <connection>scm:git:git://github.com/everbravo/springcalculadora.git</connection>
     </scm>
 
