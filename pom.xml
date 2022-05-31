@@ -55,7 +55,7 @@
                     <artifactId>tracer</artifactId>
                     <version>1.0.0</version>
                     <packaging>jar</packaging>
-                    <file>${systemPath}/lib/tracer-1.0.0.jar</file>
+                    <file>${.basedir}/lib/tracer-1.0.0.jar</file>
                     <generatePom>true</generatePom>
                 </configuration>
                 <executions>
@@ -103,7 +103,7 @@
                 <configuration>
                     <coberturaReports>
                         <coberturaReport>
-                            ${systemPath}/target/coverage.xml
+                            ${.basedir}/target/coverage.xml
                         </coberturaReport>
                     </coberturaReports>
                     <scanForSources>true</scanForSources>
